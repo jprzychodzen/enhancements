@@ -32,11 +32,11 @@
 ## Summary
 
 Build support for the out-of-tree GCE cloud provider. This involves a well-tested version of the cloud-controller-manager 
-that has feature parity to the kube-controller-manager. 
+that has feature parity to the kube-controller-manager.
 
 ## Motivation
 
-Motivation for supporting out-of-tree providers can be found in the [Cloud Controller Manager KEP](/keps/sig-cloud-provider/20180530-cloud-controller-manager.md). 
+Motivation for supporting out-of-tree providers can be found in the [Cloud Controller Manager KEP](/keps/sig-cloud-provider/2392-cloud-controller-manager).
 This KEP is specifically tracking progress for the GCE cloud provider.
 
 ### Goals
@@ -46,7 +46,7 @@ This KEP is specifically tracking progress for the GCE cloud provider.
 
 ### Non-Goals
 
-* Removing in-tree GCE cloud provider code, this effort falls under the [KEP for removing in-tree providers](https://github.com/kubernetes/enhancements/blob/master/keps/sig-cloud-provider/20190125-removing-in-tree-providers.md).
+* Removing in-tree GCE cloud provider code, this effort falls under the [KEP for removing in-tree providers](/keps/sig-cloud-provider/2395-removing-in-tree-providers).
 
 ## Proposal
 
